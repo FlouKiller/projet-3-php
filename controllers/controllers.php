@@ -93,4 +93,12 @@ function inscriptionActivite(){
     }
 }
 
+function afficherChercheurs(){
+
+    //Récupérer les chercheurs depuis le modèle
+    $chercheurs = getChercheurs();
+
+    require_once "views/chercheursView.php";
+}
+
 ?>

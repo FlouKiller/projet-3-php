@@ -38,6 +38,14 @@
 
         <div class="card mb-4" style="width: 18rem;">
             <div class="card-body">
+                <h5 class="card-title">Nos chercheurs</h5>
+                <p class="card-text">Découvrez la liste de nos meilleurs chercheurs</p>
+                <a href="chercheurs" class="btn btn-primary">Accéder aux chercheurs</a>
+            </div>
+        </div>
+
+        <div class="card mb-4" style="width: 18rem;">
+            <div class="card-body">
                 <h5 class="card-title">Mention juridique</h5>
                 <p class="card-text">Retrouvez l'ensemble de nos détails juridiques concernant notre site Internet.</p>
                 <a href="legal" class="btn btn-primary">Accéder à la Page</a>

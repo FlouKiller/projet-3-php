@@ -3,9 +3,10 @@
 //Importation des modeles et des controleurs
 require_once "models/ActivModels.php";
 require_once "models/MedicModels.php";
+require_once "models/ChercheurModels.php";
 require_once "controllers/controllers.php";
 
-//Détecter une tanttive d'inscription à une activité
+//Détecter une tentative d'inscription à une activité
 if(isset($_POST['action'])){
     if($_POST['action'] === "inscription"){
         inscriptionActivite();
@@ -45,6 +46,10 @@ if(isset($_GET["action"])) {
 
         case "legal":
             afficherMentions();
+            break;
+        
+        case "chercheurs":
+            afficherChercheurs();
             break;
     }
 
